@@ -52,8 +52,8 @@ a = -5; b = 5;
 
 xi = 0.5*((b-a)*xi + a + b);
 % test if we generate random the points
-% xi = unifrnd(-5,5,1,n);
-% xi = sort(xi);
+ xi = unifrnd(-5,5,1,n);
+ xi = sort(xi);
 fx = 1./(1+xi.*xi);
 
 num_plot = 100;
